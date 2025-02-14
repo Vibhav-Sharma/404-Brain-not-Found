@@ -1,0 +1,31 @@
+{
+  "name": "404-brain-not-found",
+  "version": "1.0.0",
+  "description": "AI-powered personal assistant that helps with **task management, email summarization, meeting scheduling, transcription, and notifications**. The web app integrates multiple APIs to automate workflow and improve productivity.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vibhav-Sharma/404-Brain-not-Found.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vibhav-Sharma/404-Brain-not-Found/issues"
+  },
+  "homepage": "https://github.com/Vibhav-Sharma/404-Brain-not-Found#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "googleapis": "^144.0.0",
+    "nodemon": "^3.1.9",
+    "open": "^10.1.0"
+  }
+}
