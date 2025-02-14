@@ -1,4 +1,3 @@
-```markdown
 # 🚀 AI Personal Assistant Web App
 
 ## 📌 Project Description
@@ -100,10 +99,10 @@ node server.js  # Node.js
 - Get bot token & set up webhook
 
 ## 🎯 Contributors
-- **Riya Dutta** (Frontend, UI/UX)  
-- **Manik Dhillu** (Backend, AI Features)  
-- **Ayush Raghav** (API Integrations)  
-- **Vibhav Sharma** (Database & Notifications)  
+- **Vibhav Sharma** (Backend, AI Features)  
+- **Manik Dhillu** (Frontend, UI/UX)  
+- **Riya Dutta** (API Integrations)  
+- **Ayush Raghav** (Database & Notifications)  
 
 ## 🎤 Presentation & Demo
 📌 **Prepare a 2-minute demo showcasing:**
@@ -111,3 +110,4 @@ node server.js  # Node.js
 2. **Email Summarization & Auto-Scheduling**
 3. **Meeting Transcription & Action Items Extraction**
 4. **Notifications & Smart Reminders**
+
