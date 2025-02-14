@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Personal Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="header">
+        <h1>AI Personal Assistant</h1>
+        <nav>
+            <ul>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#emails">Emails</a></li>
+                <li><a href="#meetings">Meetings</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <section id="tasks">
+            <h2>Task Management</h2>
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add Task</button>
+            <ul id="taskList"></ul>
+        </section>
+
+        <section id="emails">
+            <h2>Email Summary</h2>
+            <button id="fetchEmailsBtn">Fetch Emails</button>
+            <div id="emailSummary"></div>
+        </section>
+
+        <section id="meetings">
+            <h2>Meeting Scheduler</h2>
+            <input type="text" id="meetingInput" placeholder="Schedule a meeting...">
+            <button id="scheduleMeetingBtn">Schedule Meeting</button>
+            <div id="meetingList"></div>
+        </section>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
